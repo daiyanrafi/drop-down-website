@@ -11,7 +11,7 @@
     .container {
     height: 900px;
     width: 400px;
-    background-image: linear-gradient(#1e6b30, #308d46);
+    background-image: linear-gradient(#d827bb, #ca17a3);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -23,10 +23,10 @@
     
     .main-content {
     height: 235px;
-    background-color: #1b9236;
+    background-color: #d4eb0d;
     border-bottom-left-radius: 90px;
     border-bottom-right-radius: 80px;
-    border-top: #1e6b30;
+    border-top: #ec5b07;
     }
     
     .text {
@@ -50,7 +50,7 @@
     font-size: 20px;
     border-radius: 25px;
     padding-top: 0.5px;
-    background-image: linear-gradient(#1e6b30, #308d46);
+    background-image: linear-gradient(#b00ef0, #e211ae);
     }
     
     .centre-content-h1 {
@@ -73,12 +73,12 @@
     width: 290px;
     border: none;
     margin: 5px 30px;
-    background-color: rgb(71, 177, 61);
+    background-color: rgb(27, 213, 219);
     position: relative;
     }
     
     .card-details {
-    background: rgb(8, 49, 14);
+    background: rgb(230, 80, 11);
     color: rgb(225, 223, 233);
     margin: 10px 30px;
     padding: 10px;
@@ -101,7 +101,7 @@
     width: 240px;
     border: none;
     margin: 5px 30px;
-    background-color: rgb(71, 177, 61);
+    background-color: rgb(241, 14, 14);
     }
     * {
         margin: 0;
@@ -116,7 +116,7 @@
         .container {
         height: 900px;
         width: 400px;
-        background-image: linear-gradient(#1e6b30, #308d46);
+        background-image: linear-gradient(#6f0fdd, #d0f30c);
         top: 50%;
         left: 50%;
         position: absolute;
@@ -128,10 +128,10 @@
         
         .main-content {
         height: 235px;
-        background-color: #1b9236;
+        background-color: #e5e90a;
         border-bottom-left-radius: 90px;
         border-bottom-right-radius: 80px;
-        border-top: #1e6b30;
+        border-top: #6d06f3;
         }
         
         .text {
@@ -155,7 +155,7 @@
         font-size: 20px;
         border-radius: 25px;
         padding-top: 0.5px;
-        background-image: linear-gradient(#1e6b30, #308d46);
+        background-image: linear-gradient(#f03c06, #0d61c0);
         }
         
         .centre-content-h1 {
@@ -178,7 +178,7 @@
         width: 290px;
         border: none;
         margin: 5px 30px;
-        background-color: rgb(71, 177, 61);
+        background-color: rgb(154, 20, 231);
         position: relative;
         }
         
@@ -206,6 +206,6 @@
         width: 240px;
         border: none;
         margin: 5px 30px;
-        background-color: rgb(71, 177, 61);
+        background-color: rgb(68, 176, 248);
         }
             
