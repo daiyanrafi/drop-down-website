@@ -1,10 +1,9 @@
-* {
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
-  }
+}
   
   .navbar {
     background: #f5f4ef;
@@ -87,7 +86,7 @@
     background: #f052c8;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
+    color: rgb(12, 12, 12);
     transition: all 0.3s ease;
   }
   
@@ -96,11 +95,85 @@
     transition: all 0.3s ease;
   }
 
+  
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #183de4;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #190bdf;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #fc0707;
+    border: 2px solid #4518e9;
+    margin-top: 13px;
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
 .content{
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color: rgb(15, 14, 14);
     position: relative;
 }
 
@@ -246,113 +319,4 @@
 }
 .icons ion-icon:hover{
     color: #ff7200;
-}
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: #183de4;
-}
-
-
-
-#cart table{
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: fixed;
-}
-
-#cart table thead{
-    font-weight: 700;
-}
-
-#cart table thead td{
-    background: #ff7200;
-    color: #fff;
-    border: none;
-    padding: 6px 0;
-}
-
-#cart table table td{
-    border: 1px solid #fff;
-    text-align: center;
-}
-
-#cart table table td:nth-child(1){
-    width: 100px;
-}
-
-#cart table table td:nth-child(2),
-#cart table table td:nth-child(3){
-    width: 200px;
-}
-
-#cart table table td:nth-child(2),
-#cart table table td:nth-child(3){
-    width: 200px;
-}
-
-#cart table table td:nth-child(4),
-#cart table table td:nth-child(5),
-#cart table table td:nth-child(6){
-    width: 170px;
-}
-
-#cart table table tbody img{
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-}
-
-#cart table tbody i{
-    color: #91ff00;
-}
-
-#cart-buttom .cupon>div,
-#cart-buttom .total>div{
-    border: 1px solid #b6b;
-}
-
-#cart-buttom .cupon h5,
-#cart-buttom .total h5 {
-    background: violet;
-    color: whitesmoke;
-    border: none;
-    padding: 6px 12px;
-    font-weight: 700;
-}
-
-#cart-buttom .cupon p,
-#cart-buttom .cupon input{
-    padding: 0 12px;
-}
-
-#cart-bottom .cupon input{
-    margin: 0 0 20px 12px;
 }
